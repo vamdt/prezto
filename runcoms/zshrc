@@ -13,6 +13,8 @@ fi
 # Customize to your needs...
 source ~/.aliases
 source ~/.funcs
+#fasd config
+eval "$(fasd --init auto)"
 
 export PATH="$PATH:$HOME/.rvm/bin:$HOME/bin" # Add RVM to PATH for scripting
 export EDITOR=vim
